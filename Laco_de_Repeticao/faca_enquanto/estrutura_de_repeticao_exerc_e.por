@@ -3,24 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num_crescente
-		num_crescente = 1
-
-		faca {
-			escreva (num_crescente, "\n")
-			 num_crescente ++
-		}
-		enquanto (num_crescente < 11)
-		
-	}	
-	
+		inteiro contagem
+		contagem = 2
+	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 187; 
+ * @POSICAO-CURSOR = 78; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

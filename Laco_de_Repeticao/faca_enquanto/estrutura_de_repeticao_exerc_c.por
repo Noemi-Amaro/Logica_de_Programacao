@@ -1,29 +1,19 @@
 programa
 {
-	
-	funcao inicio()
+	funcao inicio()
 	{
-	 inteiro n1 , n2 //,soma
-			
-		faca{
-			escreva("Digite o primeiro número: ")
-			leia(n1)
+		inteiro num_decrescente
+		num_decrescente = 10
 
-			escreva("Digite o segundo número: ")
-			leia(n2)
-
-//soma = n1+n2
+		faca {
+			escreva (num_decrescente, "\n")
+			 num_decrescente --
 		}
+		enquanto (num_decrescente >= 1)
 		
-		enquanto (n1+n2 <= 50)
-		
-		escreva (" Esta soma é: " , n1+n2)
- //escreva ("Esta soma é: ",soma)
- //ao inves de fazer n1+n2, colocar a var soma
-		}
-	}
-
-
+	}	
+	
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
