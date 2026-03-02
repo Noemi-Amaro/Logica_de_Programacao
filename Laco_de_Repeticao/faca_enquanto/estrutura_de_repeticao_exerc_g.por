@@ -21,7 +21,7 @@ programa
 		// O laço continua se a resposta for 's' OU 'S'
 		} enquanto (resposta == 's' ou resposta == 'S') 
 
-		escreva("\nEncerrando o programa...")
+		escreva("\n Encerrando o programa...")
 	}
 }
 
