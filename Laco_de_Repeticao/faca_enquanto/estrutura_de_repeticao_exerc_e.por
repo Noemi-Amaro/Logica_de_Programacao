@@ -3,10 +3,23 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro contagem
-		contagem = 2
+		inteiro i, soma
+		i=0
+		soma = 0
+
+		faca{
+			i = i + 1
+			se (i % 2 ==0){
+				//i++
+				soma = soma + i
+			}
+		}
+
+			enquanto (i<=500)
+			escreva (soma)
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
