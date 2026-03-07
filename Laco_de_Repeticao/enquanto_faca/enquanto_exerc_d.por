@@ -7,14 +7,16 @@ programa
 		n=15
 		
 
-		enquanto (n>=15 e n<200){
+		enquanto (n <= 200){
 			quadrado = n*n 
 			n++
 			escreva ( n , "² =" , quadrado , "\n")
+// o n*n também pode ser colocado no escreva
 			
 		}
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
